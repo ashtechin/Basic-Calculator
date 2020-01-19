@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel = "stylesheet" href = "calc.css">
+  <title>Calculator</title>
+</head>
+<body>
+
+  <h2 class="heading">Simple Calculator</h2>
+  <div class = "calculator">
+    <form name= "calc">
+      <input type= "text" name= "answer" placeholder= "0" id = "res"/>
+      <br><br>
+      <input type= "button" value= "7" id="7b" onclick= "tem('7')" />
+      <input type= "button" value= "8" id="8b" onclick= "tem('8')" />
+      <input type= "button" value= "9" id="9b" onclick= "tem('9')" />
+      <input type= "button" value= "+" id="+b" onclick= "tem('+')" />
+      <input type= "button" value= "<--" id="<--b" onclick= "bksp()" />
+      <br/>
+      <input type= "button" value= "4" id="4b" onclick= "tem('4')" />
+      <input type= "button" value= "5" id="5b" onclick= "tem('5')" />
+      <input type= "button" value= "6" id="6b" onclick= "tem('6')" />
+      <input type= "button" value= "-" id="-b" onclick= "tem('-')" />
+      <input type= "button" value= "x^2" id="x^2" onclick= "tem('**2')" />
+      <br/>
+      <input type= "button" value= "1" id="1b" onclick= "tem('1')" />
+      <input type= "button" value= "2" id="2b" onclick= "tem('2')" />
+      <input type= "button" value= "3" id="3b" onclick= "tem('3')" />
+      <input type= "button" value= "x" id="xb" onclick= "tem('x')" />
+      <input type= "button" value= "%" id="+b" onclick= "tem('%')" />
+      <br/>
+      <input type= "button" value= "C" id="cb" onclick= "clr()" />
+      <input type= "button" value= "." id="+b" onclick= "tem('.')" />
+      <input type= "button" value= "0" id="0b" onclick= "tem('0')" />
+      <input type= "button" value= "=" id="=b" onclick= "ans()" />
+      <input type= "button" value= "/" id="/b" onclick= "tem('/')" />
+    </form>
+    <div class= "credits">
+      <p>ashtechin</p>
+    </div>
+  </div>
+<script type= "text/javascript" src= "calc.js"></script>
+
+</body>
